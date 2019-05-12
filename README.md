@@ -61,7 +61,7 @@ To deal with this heavy class imbalance, I used SMOTE Oversampling techniques as
     <br>
   <li>Random Forest with SMOTE and Grid Search (BEST MODEL)</li>
   <ul>
-      <li>Best Paramaters: 'max_depth': None, 'max_features': 0.33,'min_samples_leaf': 2,'n_estimators': 100</li>
+      <li>Best Paramaters: 'max_depth': None, 'max_features': 0.33, 'min_samples_leaf': 2, 'n_estimators': 100</li>
       <li>Test Accuracy: 0.9854651162790697</li>
       <li>Test F1: 0.8780487804878049</li>
       <li>This model worked the best out of all the models I ran and resulted in the lowest false negatives as seen in the confusion matrix below</li>
