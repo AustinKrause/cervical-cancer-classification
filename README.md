@@ -12,7 +12,7 @@ In this project I used data collected from patients who were having biopsy tests
 </ul>
 
 <h2>Preview of Dataframe</h2><br>
-(INSERT PICTURE OF DATAFRAME HERE)<br>
+<img src='images/dataframe.png'><br>
 <ul>
   <li>Negative biopsy results: 803</li>
   <li>Positive biopsy results: 55</li>
@@ -22,7 +22,7 @@ In this project I used data collected from patients who were having biopsy tests
 </ul>
 
 <h2>Class Imbalance</h2><br>
-(INSERT PICTURE OF CLASS IMBALANCE HERE)<br><br>
+<img src='images/class_imbalance.png'><br><br>
 
 To deal with this heavy class imbalance, I used SMOTE Oversampling techniques as well as Upsampling to even out the classes. Using both SMOTE and Upsampling allowed me to run models on each and compare which technique worked better for this dataset. Below I will highlight some of the models I ran using SMOTE, as SMOTE seemed to produce better results on this dataset.<br><br>
 
@@ -65,7 +65,7 @@ To deal with this heavy class imbalance, I used SMOTE Oversampling techniques as
       <li>Test Accuracy: 0.9854651162790697</li>
       <li>Test F1: 0.8780487804878049</li>
       <li>This model worked the best out of all the models I ran and resulted in the lowest false negatives as seen in the confusion matrix below</li>
-        (INSERT PICTURE OF CONFUSION MATRIX HERE)<br>
+        <img src='images/rf_confusion_matrix.png'>)<br>
 This random forest model resulted in only 1 false negative and correctly classified 18/19 true positive cases.<br>
     </ul>
     <br>
