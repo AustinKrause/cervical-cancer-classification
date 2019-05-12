@@ -1,17 +1,17 @@
-<h1>Flatiron School Mod 3 Project</h1><br><br>
+<h1>Flatiron School Mod 3 Project</h1>
 <h2>ML Project Aiming to Classify Cervical Cancer Biopsy Results</h2>
 
-<h2>Intro</h2><br>
+<h2>Intro</h2>
 In this project I used data collected from patients who were having biopsy tests done in order to detect whether cervical cancer was present. The features in the dataset dealt with age, past sexual experience and pregnancies, STD's, and smoking habits (if applicable). The target variable was biopsy result (0 for negative, 1 for positive).<br><br>
 
-<h2>Goals for this Project</h2><br>
+<h2>Goals for this Project</h2>
 <ul>
   <li>Use machine learning models to classify the correct biopsy result</li>
   <li>Obtain high F1 score on test data</li>
   <li><b>Reduce number of false negative cases in test data (Predicting negative biopsy result when in fact the biopsy came back positive)</b></li>
 </ul>
 
-<h2>Preview of Dataframe</h2><br>
+<h2>Preview of Dataframe</h2>
 <img src='images/dataframe.png'><br>
 <ul>
   <li>Negative biopsy results: 803</li>
@@ -21,19 +21,19 @@ In this project I used data collected from patients who were having biopsy tests
   <li>Testing observations: 344</li>
 </ul>
 
-<h2>Class Imbalance</h2><br>
+<h2>Class Imbalance</h2>
 <img src='images/class_imbalance.png'><br><br>
 
 To deal with this heavy class imbalance, I used SMOTE Oversampling techniques as well as Upsampling to even out the classes. Using both SMOTE and Upsampling allowed me to run models on each and compare which technique worked better for this dataset. Below I will highlight some of the models I ran using SMOTE, as SMOTE seemed to produce better results on this dataset.<br><br>
 
-<h2>Classification Models Used</h2><br>
+<h2>Classification Models Used</h2>
 <ul>
   <li>Logistic Regression</li>
   <li>Decision Tree</li>
   <li>Random Forest</li>
 </ul>
 
-<h2>Highlighting Model Results</h2><br>
+<h2>Highlighting Model Results</h2>
 <ul>
   <li>Logistic Regression with SMOTE:<br>
     <ul>
