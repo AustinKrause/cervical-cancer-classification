@@ -65,7 +65,7 @@ To deal with this heavy class imbalance, I used SMOTE Oversampling techniques as
       <li>Test Accuracy: 0.9854651162790697</li>
       <li>Test F1: 0.8780487804878049</li>
       <li>This model worked the best out of all the models I ran and resulted in the lowest false negatives as seen in the confusion matrix below</li>
-        <img src='images/rf_confusion_matrix.png'>)<br>
+        <img src='images/rf_confusion_matrix.png'><br>
 This random forest model resulted in only 1 false negative and correctly classified 18/19 true positive cases.<br>
     </ul>
     <br>
