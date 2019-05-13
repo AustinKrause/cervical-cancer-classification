@@ -16,7 +16,7 @@ In this project I used data collected from patients who were having biopsy tests
 <ul>
   <li>Negative biopsy results: 803</li>
   <li>Positive biopsy results: 55</li>
-  <li>Test train split: 60/40</li>
+  <li>Train test split: 60/40</li>
   <li>Training observations: 514</li>
   <li>Testing observations: 344</li>
 </ul>
