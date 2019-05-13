@@ -15,7 +15,7 @@ In this project I used data collected from patients who were having biopsy tests
 <img src='images/dataframe.png'><br>
 <ul>
   <li>Features Chosen: ‘>= 3 Pregnancies_1’, 'Been Pregnant_1', 'Dx_1', 'Dx:Cancer_1', 'Dx:CIN_1', 'Dx:HPV_1', 'Hinselmann_1',
-    'Citology_1', 'Age', 'Number of sexual partners'</li>
+    'Citology_1', 'Age', 'Number of sexual partners', 'Year First sexual intercourse', 'Num of pregnancies', 'Smokes(packs/year)', 'Hormonal Contraceptives', 'Hormonal Contraceptives (years)', 'STDs (number)'</li>
   <li>Target Variable: Biopsy</li>
   </ul>
   
