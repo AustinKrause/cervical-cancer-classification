@@ -52,6 +52,18 @@ To deal with this heavy class imbalance, I used SMOTE Oversampling techniques as
       <li>Test F1: 0.4999999999999999</li>
     </ul>
     This model is overfitting the training data!<br><br>
+   
+ <li>KNN with SMOTE</li>
+    <ul>
+      <li>Best K: 1<li>
+      <li>Test F1: 0.6666666666666666</li>
+      <li>TN: 288</li>
+      <li>TP: 19</li>
+      <li>FP: 37</li>
+      <li>FN: 0</li>
+      <li>Looking at the results above, the knn model does a good job of eliminating false negative results, however, it still        leaves a lot of room for improvement. The model predicts more false positives than true positives.</li>
+    </ul>
+  
     
   <li>Decision Tree with SMOTE and Grid Search</li><br>
   <img src='images/tree_picture.jpeg'>
