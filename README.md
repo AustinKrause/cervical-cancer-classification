@@ -14,6 +14,14 @@ In this project I used data collected from patients who were having biopsy tests
 <h2>Preview of Dataframe</h2>
 <img src='images/dataframe.png'><br>
 <ul>
+  <li>Features Chosen: ‘>= 3 Pregnancies_1’, 'Been Pregnant_1', 'Dx_1', 'Dx:Cancer_1', 'Dx:CIN_1', 'Dx:HPV_1', 'Hinselmann_1',
+    'Citology_1', 'Age', 'Number of sexual partners'</li>
+  <li>Target Variable: Biopsy</li>
+  </ul>
+  
+
+
+<ul>
   <li>Negative biopsy results: 803</li>
   <li>Positive biopsy results: 55</li>
   <li>Train test split: 60/40</li>
