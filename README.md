@@ -45,7 +45,8 @@ To deal with this heavy class imbalance, I used SMOTE Oversampling techniques as
     </ul>
     This model is overfitting the training data!<br><br>
     
-  <li>Decision Tree with SMOTE and Grid Search</li>
+  <li>Decision Tree with SMOTE and Grid Search</li><br>
+  <img src='images/tree_picture.jpeg'>
     <ul>
       <li>Best Paramaters: 'criterion': 'gini', 'max_depth': 2, 'max_leaf_nodes': 3, 'min_samples_leaf': 50</li>
       <li>Test Accuracy: 0.9302325581395349</li>
@@ -59,7 +60,8 @@ To deal with this heavy class imbalance, I used SMOTE Oversampling techniques as
         </ul>
     </ul>
     <br>
-  <li>Random Forest with SMOTE and Grid Search (BEST MODEL)</li>
+  <li>Random Forest with SMOTE and Grid Search (BEST MODEL)</li><br>
+  <img src='images/rf_picture.jpeg'>
   <ul>
       <li>Best Paramaters: 'max_depth': None, 'max_features': 0.33, 'min_samples_leaf': 2, 'n_estimators': 100</li>
       <li>Test Accuracy: 0.9854651162790697</li>
