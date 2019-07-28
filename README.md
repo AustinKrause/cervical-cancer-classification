@@ -6,7 +6,7 @@ In this project I used data collected from patients who were having biopsy tests
 
 <h2>Goals for this Project</h2>
 <ul>
-  <li>Use machine learning models to classify the correct biopsy result</li>
+  <li>Use supervised machine learning models to classify the correct biopsy result</li>
   <li>Obtain high F1 score on test data</li>
   <li><b>Reduce number of false negative cases in test data (Predicting negative biopsy result when in fact the biopsy came back positive)</b></li>
 </ul>
